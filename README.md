@@ -18,7 +18,7 @@ A simple Ruby program that reads RFID UID input from the user, validates it as a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ivancedo/RFID_Reader.git
+   git clone https://github.com/ivancedo/RFID-Reader.git
    cd RFID_Reader
    
 1. Run program:
