@@ -31,7 +31,7 @@ if __FILE__ == $0
     # Main loop to continuously read input until the user quits.
     loop do
         print "Reading... ('q' to quit): "
-        input = IO.console.gets.chomp
+        input = IO.console.noecho(&:gets).chomp
 
         # Exit the loop if the user enters 'q' or 'Q'.
         break if input.downcase == 'q'
