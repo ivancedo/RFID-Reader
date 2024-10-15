@@ -6,6 +6,7 @@ A simple Ruby program that reads RFID UID input from the user, validates it as a
 
 - Reads user input for RFID UIDs.
 - Validates input to ensure only numeric values are accepted.
+- Reverse the UID byte order for the reader's reading method.
 - Converts valid UIDs to a hexadecimal format.
 - Allows the user to exit the program gracefully.
 
